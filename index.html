@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Four</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="text-4xl font-bold text-gray-800 mb-6">Connect Four</h1>
+        <div id="status" class="status-message mb-6">
+            Player <span id="current-player" class="player-turn player1-color">1</span>'s Turn
+        </div>
+        <div id="board" class="board-container">
+        </div>
+        <button id="resetButton" class="reset-button mt-8">Reset Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
